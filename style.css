@@ -19,7 +19,9 @@ main {
 .step {
   width: 300px;
   margin-right: 30px;
+  padding: 10px;
   background-color: #eeeeee;
+  position: relative;
 }
 
 .step:last-child {
@@ -30,11 +32,12 @@ span {
   background-color: #ff9a4b;
   color: white;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .image1 {
   height: 150px;
-  margin: 10px 10px 15px 10px;
   background-image: url(img/flow01.png);
   background-size: cover;
   background-position: bottom;
@@ -42,7 +45,6 @@ span {
 
 .image2 {
   height: 150px;
-  margin: 10px 10px 15px 10px;
   background-image: url(img/flow02.png);
   background-size: cover;
   background-position: bottom;
@@ -50,18 +52,14 @@ span {
 
 .image3 {
   height: 150px;
-  margin: 10px 10px 15px 10px;
   background-image: url(img/flow03.png);
   background-size: cover;
   background-position: bottom;
 }
 
 h3 {
-  padding-left: 10px;
-}
-
-p {
-  padding: 5px 10px 10px 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
 
 footer {
